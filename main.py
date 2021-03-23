@@ -11,7 +11,7 @@ r = requests.get(url)
 soup = BeautifulSoup(r.text, 'html.parser')
 
 cryptoname = soup.find('p', {
-    'class': 'sc-1eb5slv-0 hNpJqV converter-item-name'
+    'class': 'sc-AxhUy ghbWav converter-item-name'
 }).text
 
 
